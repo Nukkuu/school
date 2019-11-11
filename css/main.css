@@ -5,11 +5,6 @@ header{
 	background-color: #e8e8e8;
 	position: relative;
 }
-.container{
-	max-width: 970px;
-	margin: 0 auto;
-	width: 100%;
-}
 header .header-main-line:before{
 	content: '';
 	display: block;
@@ -93,11 +88,11 @@ header .header-line li a:hover{
 	flex: 1;
 }
 .main-slider-page .slider-main-text .social{
-	padding-top: 35px;
+	padding-top: 40px;
 }
 .main-slider-page .slider-main-text .social a{
 	text-decoration: none;
-	margin-right: 20px;
+	margin-right: 15px;
 	display: inline-block;
 }
 .main-slider-page .slider-main-text .social a i{
@@ -123,10 +118,10 @@ header .header-line li a:hover{
     border-radius: 30px 30px 30px 30px;
     background-color: #173f3a;
     padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     width: 100%;
-    margin-right: 40px;
+    margin-right: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #d8d8d8;
@@ -136,10 +131,10 @@ header .header-line li a:hover{
 }
 .main-slider-page .slider-main-text .input a{
 	position: absolute;
-	top: 37%;
-    left: 86%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+    top: 38%;
+    left: 84%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #d8d8d8;
@@ -478,10 +473,6 @@ header .header-line li a:hover{
 footer{
 	padding-top: 50px;
 }
-.contacts-text ul{
-	display: flex;
-	justify-content: space-between;
-}
 .contacts .contacts-text .subtitle p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px ;
@@ -501,9 +492,6 @@ footer{
 	font-size: 12px;
 	text-align: left;
 }
-.contacts .contacts-text ul li{
-	width: 25%;
-}
 .contacts .contacts-text h3{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
@@ -518,6 +506,7 @@ footer{
 	font-size: 12px;
 	font-family: Arial;
 	text-decoration: none;
+	color: #007bff;
 }
 .contacts .contacts-text .lorem{
 	font-family: Arial;
@@ -578,7 +567,6 @@ footer{
 	text-decoration: none;
 	padding: 10px 20px;
 	display: inline-block;
-	margin-left: 35px;
 }
 .privacy{
 	padding-top: 30px;
@@ -613,3 +601,210 @@ footer{
 	font-family: Arial;
 	font-size: 12px;
 }
+@media (max-width: 992px) {
+  	.main-slider-page .owl-carousel .first-slide{
+  		height: 284px;
+    	padding: 25px 25px;
+  }
+  	.main-slider-page .owl-carousel .second-slide{
+  		height: 284px;
+    	padding: 25px 25px;
+  }
+  	.main-slider-page .owl-carousel .third-slide{
+  		height: 284px;
+    	padding: 25px 25px;
+  }
+  	.main-slider-page .owl-carousel h2{
+  		font-size: 65px;
+  }
+  	.main-slider-page .slider-main-text .social{
+  		padding-top: 40px;
+  }
+  	.services span{
+  		font-size: 32px;
+  }
+	.services h3{
+  		font-size: 32px;
+  }
+  	.services .con .services-wrapp .image img {
+    	width: 80px;
+    	height: 60px;
+    	margin-top: 5px;
+  }
+  	.services .con .services-wrapp h6 {
+  		font-size: 25px;
+  }
+  	.services .con .services-wrapp{
+  		margin-right: 10px;
+  }
+  	.whoweare .whoweare-container .text2 h2{
+  		font-size: 35px;
+  }
+  	.whoweare .whoweare-container .text-img-wrapper img {
+    	width: 200px;
+    	height: 200px;
+    	margin: 60px 20px;
+  }
+  	.whoweare .whoweare-container .text2 p {
+    	font-size: 11px;
+  }
+  	.whoweare .topics .note-wrapp span{
+		bottom: 55%;
+    	left: 30%;
+  }
+  	.whoweare .topics .note-wrapp a{
+	  	bottom: 45%;
+	    left: 30%;
+	    font-size: 20px;
+  }
+  	.contacts .contacts-text .subtitle{
+  		font-size: 50px;
+  }
+  	.contacts .contacts-text .Subscribe{
+  		padding: 5px 10px;
+  		font-size: 11px;
+  }
+  	.privacy .privacy-list ul{
+  		width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  	.main-slider-page .slider-main-text span{
+  		font-size: 48px;
+  }
+  	header .header-line li a{
+  		font-size: 13px;
+  		padding: 10px;
+  }
+  	header .header-line li > ul li a{
+  		font-size: 11px;
+  }
+  	.main-slider-page .slider-main-text .social {
+    	padding-top: 45px;
+  }
+	.main-slider-page .slider-main-text .social a i{
+		font-size: 17px;
+    	padding: 2px;
+    	width: 25px;
+  }
+	.main-slider-page .slider-main-text .social a{
+		margin-right: 10px;
+  }
+	.main-slider-page .slider-main-text .subtitle p{
+		font-size: 14px;
+  }
+	.main-slider-page .slider-main-text .input a {
+		top: 47%;
+  }
+	.main-slider-page .owl-carousel .first-slide{
+  		height: 210px;
+    	padding: 10px 15px;
+  }
+  	.main-slider-page .owl-carousel .second-slide{
+  		height: 210px;
+    	padding: 10px 15px;
+  }
+  	.main-slider-page .owl-carousel .third-slide{
+  		height: 210px;
+    	padding: 10px 15px;
+  }
+	.main-slider-page .owl-carousel h2 {
+    	font-size: 40px;
+  }    
+	.owl-theme .owl-dots .owl-dot span{
+		margin: 2px 2px;
+  }
+  	.main-slider-page .owl-carousel .worde{
+  		font-size: 35px;
+  }
+  	.main-slider-page .owl-carousel .word{
+  		font-size: 35px;
+  }
+  	.main-slider-page .owl-carousel .subtitle-text{
+  		font-size: 20px;
+  }
+  	.main-slider-page .owl-carousel .worde:before {
+    	width: 70%;
+  }
+  	.services span{
+  		font-size: 22px;
+  }
+	.services h3{
+  		font-size: 22px;
+  }
+  	.services .con .services-wrapp h6 {
+  		font-size: 20px;
+  }
+  	.services .con .services-wrapp .image img {
+	    width: 80px;
+	    height: 60px;
+	    margin-top: 10px;
+  }
+  	.services .con .services-wrapp p{
+  		font-size: 11px;
+    	padding: 15px 10px;
+  }
+  	.services .con .services-wrapp a {
+    	font-size: 17px;
+  }
+  	.whoweare .topics{
+  		display: none;
+  }
+  	.whoweare .whoweare-container:before{
+  		width: 100%;
+  }
+  	.whoweare .whoweare-container:after{
+  		width: 100%;
+  }
+  	.whoweare .whoweare-container .text2 h2 {
+    	font-size: 27px;
+  }
+  	.whoweare .whoweare-container .text2 h3 {
+	    font-size: 14px;
+  }
+	.whoweare .whoweare-container .news-container .text3 h3 {
+   	 	font-size: 20px;
+    	padding-bottom: 0px;
+  }
+  	.whoweare .whoweare-container .news-container .text4 h3{
+  		font-size: 20px;
+  }
+  	.whoweare .whoweare-container .news-container .text4 a {
+    	font-size: 13px;
+  }
+  	.contacts .contacts-text .subtitle {
+    	font-size: 35px;
+  }
+	.contacts .contacts-text .subtitle p {
+	    font-size: 14px;
+	    margin-top: -10px;
+  }
+	.contacts .contacts-text h3 {
+	    font-size: 13px;
+  }
+	.contacts .contacts-text .name {
+	    font-size: 8px;
+  }
+	.contacts .contacts-text .details {
+	    font-size: 10px;
+  }
+	.contacts .contacts-text .details a {
+	    font-size: 8px;
+  }
+	.contacts .contacts-text .Unsubscribe {
+	    font-size: 9px;
+  }
+	.contacts .contacts-text .Subscribe {
+	    padding: 3px 5px;
+	    font-size: 8px;
+  }
+	.contacts .contacts-text p {
+	    font-size: 9px;
+  }
+  	.contacts .contacts-text .lorem {
+    	font-size: 8px;
+  }
+  	.privacy .privacy-list ul li a {
+    	font-size: 13px;
+  }
+}	
